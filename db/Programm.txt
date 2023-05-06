@@ -1,0 +1,25 @@
+INSERT INTO book (title, author, colvalue, rencost)
+VALUES('MATAN', 'Sergeev', '1232131', '23123');
+INSERT INTO book (title, author, colvalue, rencost)
+VALUES('OOP', 'Sergeev', '1232131', '23123');
+INSERT INTO book (title, author, colvalue, rencost)
+VALUES('PHISICS', 'Sergeev', '1232131', '23123');
+CREATE TABLE IF NOT EXISTS book (
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	title TEXT,
+	author TEXT,
+	colvalue TEXT,
+	rencost     TEXT);
+CREATE TABLE IF NOT EXISTS book (
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	title TEXT,
+	author TEXT,
+	colvalue TEXT,
+	rencost     TEXT);
+INSERT INTO readers (name, surname, patronymic, adress, telephone)
+VALUES('PHISICS', 'Sergeev', '1232131', '23123','ewqeqeqwe');
+INSERT INTO issbook (gdata, rdata, reader , book)
+VALUES('PHISICS', 'Sergeev', 1, 2);
+INSERT INTO books (title, author, colvalue ,  rencost)
+VALUES('PHISICS', 'Sergeev', '1232131', '23123');
+           
